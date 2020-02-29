@@ -47,6 +47,7 @@ GEM
       tzinfo (~> 1.1)
     arel (7.1.4)
     builder (3.2.3)
+    byebug (11.1.1)
     concurrent-ruby (1.1.5)
     crass (1.0.5)
     erubis (2.7.0)
@@ -64,9 +65,11 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.13.0)
     nio4r (2.5.2)
+    nokogiri (1.10.7)
+      mini_portile2 (~> 2.4.0)
     nokogiri (1.10.7-x64-mingw32)
       mini_portile2 (~> 2.4.0)
-    puma (3.12.2)
+    puma (3.12.3)
     rack (2.0.7)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -112,11 +115,12 @@ GEM
     websocket-extensions (0.1.4)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
   byebug
-  puma (~> 3.0)
+  puma (~> 3.12)
   rails (~> 5.0.7, >= 5.0.7.2)
   sqlite3!
   tzinfo-data
